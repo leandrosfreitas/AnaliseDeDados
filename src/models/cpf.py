@@ -9,10 +9,10 @@ class CPF:
         cpf = self.numero
 
         if len(cpf) != 11:
-            return 'CPF inválido'
+            return False
         
         if cpf == cpf[0] * 11:
-            return 'CPF inválido'
+            return False
         
         # Valida 1º dígito verificador
         soma = sum(int(cpf[i]) * (10 - i) for i in range(9))
@@ -20,7 +20,7 @@ class CPF:
         if digito1 == 10:
             digito1 = 0
         if digito1 != int(cpf[9]):
-            return 'CPF inválido'
+            return False
 
         # Valida 2º dígito verificador
         soma = sum(int(cpf[i]) * (11 - i) for i in range(10))
@@ -28,6 +28,6 @@ class CPF:
         if digito2 == 10:
             digito2 = 0
         if digito2 != int(cpf[10]):
-            return 'CPF inválido'
+            return False
 
         return True

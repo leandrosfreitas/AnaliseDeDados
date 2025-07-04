@@ -1,0 +1,51 @@
+nome_completo,primeiro_nome,segundo_nome,genero,cpf,celular,cep,bairro,cidade,estado,observacoes,email,interesse
+André de Bifur Gomes Ribeiro,André,de Bifur,erro,94097729828,52127281,90460-070,Petrópolis,Porto Alegre,RS,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,andrebifur@testmail.org,Desenvolvimento de Jogos Digitais
+Lucas Lima e Você,Lucas,Lima,erro,97778604558,45539436,30190-924,Santo Agostinho,Belo Horizonte,MG,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,tcherreretchetche@fakemail.net,Desenvolvimento de Jogos Digitais
+carlos ribeiro da costa,carlos,ribeiro,erro,91874567070,92 93484-5633,60862-730,Barroso,Fortaleza,CE,CPF inválido: False,carlos.ribeiro@mailinator.com,Engenharia de Software
+camila teixeira,camila,teixeira,erro,32804618704,41 91451-9250,58884-000,,Catolé do Rocha,PB,CPF inválido: False,camila.teixeira@example.com,UX/UI
+Mateus Almeida Cavalcanti,Mateus,Almeida,erro,67928960559,14347440,40150-150,Graça,Salvador,BA,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,mateus.almeida@example.com,UX/UI
+LUCAS ROCHA BARBALHÃO,LUCAS,ROCHA,erro,86421039220,,60025-065,Fátima,Fortaleza,CE,CPF inválido: False; Telefone ausente.,lucas.rocha@email.com,Engenharia de Software
+Rafaela Gróin Almeida Teixeira,Rafaela,Gróin,erro,12390844697,93396284,59625-000,Ilha de Santa Luzia,Mossoró,RN,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,rafaela.groin@fakemail.net,Engenharia de Software
+mateus lima romualdo,mateus,lima,erro,67016786374,57376193,56324-640,Topázio,Petrolina,PE,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,mateusro@example.com,Health Tech
+RAFAELA TEIXEIRA DAS GRAÇAS BORIN,RAFAELA,TEIXEIRA,erro,16368549076,21 91362-1356,79041-050,Tiradentes,Campo Grande,MS,,rafaela.teixeira@example.com,Ciência de Dados & Analytics
+mateus araújo teixeira,mateus,araújo,erro,38541323807,,57220-000,,Feliz Deserto,AL,CPF inválido: False; Telefone ausente.,mateus.araujo@fakemail.net,Empreendedorismo
+Luiza Ribeiro Jorocó,Luiza,Ribeiro,erro,51029075836,85 96479-5652,65290-000,,Luís Domingues,MA,CPF inválido: False,luiza.ri@example.com,Cibersegurança
+Maria Balin Pereira da Silva,Maria,Balin,erro,95820425243,30472770,88047-400,Carianos,Florianópolis,SC,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,mariasilva@fakemail.net,Desenvolvimento de Jogos Digitais
+thiago rabeca são joão,thiago,rabeca,erro,97873642305,85 91666-5075,65909-120,,,,,thiago.sj@email.com,Cibersegurança
+patrícia beatriz dias gomes,patrícia,beatriz,erro,40837745250,40580366,41620-045,,,,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,pathbdias@mailinator.com,Service Design
+Marcos Carvalho Teixeira,Marcos,Carvalho,erro,36892480109,92 13309243,58038-020,Manaíra,João Pessoa,PB,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,marcos.cate@example.com,UX/UI
+CARLOS DE SOUZA,CARLOS,DE SOUZA,erro,17462853060,85 98623-2966,59290-000,,,,CPF inválido: False,carlos.souza@fakemail.net,Engenharia de Software
+Vanessa Camargo,Vanessa,Camargo,erro,67119254596,51 93105-4605,01310-000,Bela Vista,São Paulo,SP,,xainiro@fakemail.net,Cibersegurança
+rafaela lima da costa,rafaela,lima,erro,31086758501,11 74939211,47808-155,,,,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,rafafaela.lima@example.com,Engenharia de Software
+PATRÍCIA DE CARVALHO E LIMA,PATRÍCIA,DE CARVALHO,erro,47398124629,906808351,64202-450,,,,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,patica@email.com,Engenharia de Software
+andré e gomes batutão,andré,e,erro,48765302702,,58310-000,,,,Telefone ausente.,andre.gomes@testmail.org,UX/UI
+LARISSA ARAÚJO MARLAIVA,LARISSA,ARAÚJO,erro,97523008404,61 37551981,64900-000,,Bom Jesus,PI,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,larissa.mar@mailinator.com,Engenharia de Software
+ALINE DURIN GOMES DE CARVALHO,ALINE,DURIN,erro,96546746298,85 34910887,66055-090,Nazaré,Belém,PA,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,aline.gomes@mailinator.com,Ciência de Dados & Analytics
+fernanda teixeira dos dias claros,fernanda,teixeira,erro,23964474320,85 94512-7103,51230-330,Ibura,Recife,PE,,fernanda.teix@email.com,Sustentabilidade
+Luiza Thiago Silva Lima,Luiza,Thiago,erro,69127496560,71 93015-1198,59078-430,Capim Macio,Natal,RN,CPF inválido: False,luizathsilva@testmail.org,UX/UI
+Henrique Teixeira Gomes,Henrique,Teixeira,erro,75365869656,935337567,78048-784,,,,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,henrique.taxa@mailinator.com,Ciência de Dados & Analytics
+JOSÉ AUGUSTO ABABA,JOSÉ,AUGUSTO,erro,25825581090,41 96726-3412,65075-000,,,,,jose.ababa@testmail.org,Cibersegurança
+Patrícia Carlos Dias Glóin,Patrícia,Carlos,erro,30810033771,976685432,49900-000,,Propriá,SE,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,patricia.carlos@testmail.org,Inteligência Artificial & Machine Learning
+bruno guilherme da silva ribeiro,bruno,guilherme,erro,31985819740,41 62493912,49100-000,,,,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,bruno.guilherme@email.com,Ciência de Dados & Analytics
+Isabela Felipe Rocha,Isabela,Felipe,erro,59642051354,,52041-200,Encruzilhada,Recife,PE,Telefone ausente.,isarocha@example.com,Robótica Autônoma
+JULIANA OLIVEIRA,JULIANA,OLIVEIRA,erro,28753155912,5804985,58900-000,,Cajazeiras,PB,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,juliana.oliveira@example.com,UX/UI
+BRUNO ROCHA RIBEIRO,BRUNO,ROCHA,erro,11259051153,81 91847-8121,48903-120,,,,,bruno.rocha@fakemail.net,Desenvolvimento Web Full-Stack
+Rafael de Carvalho Assunção Bofur,Rafael,de Carvalho,erro,26714667817,36665716,70745-640,,,,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,rafael.car.bofur@fakemail.net,Ciência de Dados & Analytics
+isabela oliveira pereira,isabela,oliveira,erro,76886491458,92 13433643,54789-300,Borralho,Camaragibe,PE,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,isabela.oliveira@fakemail.net,Realidade Estendida (AR / VR / MR)
+Sofia Juliana Silva,Sofia,Juliana,erro,21805543890,41 49652228,45030-000,,,,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,sofiajulisilva@mailinator.com,Agile
+bruno leonardo dias e carvalho,bruno,leonardo,erro,58262505000,919134331,22290-240,Botafogo,Rio de Janeiro,RJ,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,bruno.leo@fakemail.net,Desenvolvimento de Jogos Digitais
+JULIANA TARIFA GOMES BOMBUR,JULIANA,TARIFA,erro,40487242742,81 35533238,74125-120,Setor Oeste,Goiânia,GO,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,juli.taxa@example.com,Ciência de Dados & Analytics
+Carlos Pereira Paraê,Carlos,Pereira,erro,00321331702,954374290,29056-085,Santa Lúcia,Vitória,ES,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,carlos.para@fakemail.net,Desenvolvimento de Jogos Digitais
+Pedro Dwalin Lima Ribeiro,Pedro,Dwalin,erro,39077287000,1987824,69060-080,Aleixo,Manaus,AM,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,pedro.dwalina.ribeiro@mailinator.com,Ciência de Dados & Analytics
+beatriz ribeiro silva,beatriz,ribeiro,erro,94036713574,969164650,57995-000,,Flexeiras,AL,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,beatriz.ribeiro@example.com,UX/UI
+ANA DAS ARMAS PEREIRA,ANA,DAS ARMAS,erro,04633959565,960172054,49032-620,,,,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,carlapeipei@email.com,DevOps
+Camila Dias Chuvosos,Camila,Dias,erro,09861594456,959890524,63504-000,,,,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,camila.dias@testmail.org,Engenharia de Software
+Lucas Lima Almeida,Lucas,Lima,erro,23054918246,78035439,51030-390,Boa Viagem,Recife,PE,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,lucasla@example.com,Internet das Coisas
+lucas roque e rolou,lucas,roque,erro,24724830546,,80730-150,Bigorrilho,Curitiba,PR,CPF inválido: False; Telefone ausente.,lucas.kiss@email.com,Desenvolvimento de Jogos Digitais
+MATEUS DE OLIVEIRA,MATEUS,DE OLIVEIRA,erro,88013868770,31 12620715,50050-900,Boa Vista,Recife,PE,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,mateusol@mailinator.com,Cibersegurança
+Caio Óin Pedro das Oliveira Costa,Caio,Óin,erro,33956128403,41 90200-9113,69918-500,Vilage Wilde Maciel,Rio Branco,AC,CPF inválido: False,caio.oin@mailinator.com,DevOps
+João Thorin Oak,João,Thorin,erro,08352741850,331326,63010-015,Centro,Juazeiro do Norte,CE,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,joao.oak@email.com,Engenharia de Software
+marcos pereira parrocos,marcos,pereira,erro,64607145335,,55604-000,,,,Telefone ausente.,marcosmarrocos@example.com,Desenvolvimento de Jogos Digitais
+Mateus Costa de Almeida,Mateus,Costa,erro,72354047959,55234053,57060-372,,,,Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,mateus.costa@mailinator.com,Negócios de Plataformas e Economia de APIs
+PATRÍCIA PEREIRA ORI,PATRÍCIA,PEREIRA,erro,77982063135,21 21250362,76801-104,,,,CPF inválido: False; Telefone inválido. Formato esperado: 'DD 9XXXX-XXXX'.,patricia.ori@example.com,DevOps
+Marcos Rafael Rocha de Pereira,Marcos,Rafael,erro,79628502115,71 90878-1780,64028-100,,,,CPF inválido: False,marcos.pei@mailinator.com,Engenharia de Software
