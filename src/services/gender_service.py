@@ -1,4 +1,5 @@
 import requests
+import os
 
 def usar_genderize(nome):
     try:
@@ -20,9 +21,12 @@ def usar_genderapi(nome):
 
 def usar_gender_api(nome):
     try:
-        reponse = requests.get(f'https://gender-api.com/get?name={nome}&key=a7def5eb0ae8f7aba44b356a432cf80fe4a758942f22b86ce6ed850948bdc0fe')
-        if reponse.status_code == 200:
-            return reponse.json().get('gender', 'desconhecido')
+        api_key = os.getenv('GENDER_API_KEY')
+        if not api_key:
+            return 'erro: token não encontrado'
+        response = requests.get(f'https://gender-api.com/get?name={nome}&key={api_key}')
+        if response.status_code == 200:
+            return response.json().get('gender', 'desconhecido')
     except requests.RequestException:
         pass
     return 'erro'

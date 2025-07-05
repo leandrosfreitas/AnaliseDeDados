@@ -9,9 +9,10 @@ class Endereco:
             self.bairro = dados_cep.get('bairro', 'desconhecido')
             self.cidade = dados_cep.get('cidade', 'desconhecido')
             self.estado = dados_cep.get('estado', 'desconhecido')
+            self.ddd = dados_cep.get('ddd', '')
             self.encontrado = True
         else:
-            self.bairro = self.cidade = self.estado = 'desconhecido'
+            self.bairro = self.cidade = self.estado = self.ddd = 'desconhecido'
             self.encontrado = False
 
     def formatar_cep(self, cep):

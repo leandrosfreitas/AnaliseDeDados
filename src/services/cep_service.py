@@ -8,7 +8,8 @@ def buscar_cep(cep):
             return {
                 'bairro': dados.get('bairro'),
                 'cidade': dados.get('localidade'),
-                'estado': dados.get('uf')
+                'estado': dados.get('uf'),
+                'ddd': dados.get('ddd')
             }
     except:
         pass

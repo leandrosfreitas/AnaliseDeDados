@@ -1,6 +1,7 @@
 from src.models.pessoa import Pessoa
 from src.repo.csv_repo import exportar_pessoas_para_csv
 from src.repo.json_repo import exportar_pessoas_para_json
+from src.repo.relatorio_repo import gerar_relatorio
 import csv
 
 def ler_pessoas_csv(caminho_arquivo, fonte_genero):
@@ -32,6 +33,8 @@ def main():
 
     exportar_pessoas_para_csv(pessoas, 'src/repo/lista_clientes_saida.csv')
     exportar_pessoas_para_json(pessoas, 'src/repo/lista_clientes_saida.json')
+
+    gerar_relatorio(pessoas)
 
 if __name__ == '__main__':
     main()

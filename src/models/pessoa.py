@@ -7,25 +7,21 @@ class Pessoa():
     def __init__(self, nome_completo, cpf, celular, fonte, cep):
         self.nome_completo = nome_completo.strip()
         self.cpf = CPF(cpf)
+        self.endereco = Endereco(cep)
         self.celular = self.format_celular(celular)
         nomes = self.nome_completo.split()
         self.primeiro_nome = nomes[0].strip()
         self.segundo_nome = self.extrairSegundoNome(nomes)
         self.genero = obter_genero(self.primeiro_nome, fonte)
-        
-        self.endereco = Endereco(cep)
-
         self.observacoes = []
 
-        # Validar CPF
         valido_cpf = self.cpf.valido()
         if valido_cpf != True:
-            self.observacoes.append(f"CPF inválido: {valido_cpf}")
+            self.observacoes.append(f"CPF inválido")
         
         if not self.endereco.encontrado:
             self.observacoes.append("CEP inválido ou não encontrado.")
         
-        # Validar telefone (celular)
         if not celular or not celular.strip():
             self.observacoes.append("Telefone ausente.")
         elif not self.celular_valido(self.celular):
@@ -45,12 +41,20 @@ class Pessoa():
     
     def format_celular(self, celular):
         numeros = ''.join(c for c in celular if c.isdigit())
+        ddd = self.endereco.ddd
+        if not ddd or not ddd.isdigit() or len(ddd) != 2:
+            ddd = '00'
+
         if len(numeros) == 11:
-            ddd = numeros[:2]
-            parte1 = numeros[2:7]
-            parte2 = numeros[7:]
-            return f'{ddd} {parte1}-{parte2}'
-        return celular
+            return f'{numeros[:2]} {numeros[2:7]}-{numeros[7:]}'
+        elif len(numeros) == 10:
+            return f'{numeros[:2]} 9{numeros[2:6]}-{numeros[6:]}'
+        elif len(numeros) == 9:
+            return f'{ddd} {numeros[:5]}-{numeros[5:]}'
+        elif len(numeros) == 8:
+            return f'{ddd} 9{numeros[:4]}-{numeros[4:]}'
+        else:
+            return celular
     
     def to_dict(self):
         return {
