@@ -25,12 +25,33 @@ def gerar_relatorio(pessoas):
     print(f"  Desconhecido/Outro: {outros} ({(outros/total)*100:.2f}%)")
 
     # 2. Distribuição geográfica (por estado)
-    estados = [p.endereco.estado for p in pessoas]
-    cont_estados = Counter(estados)
+    estados_para_regioes = {
+        # Norte
+        'AC': 'Norte', 'AP': 'Norte', 'AM': 'Norte', 'PA': 'Norte',
+        'RO': 'Norte', 'RR': 'Norte', 'TO': 'Norte',
 
-    print("\n→ Distribuição Geográfica (por estado):")
-    for estado, qtd in cont_estados.items():
-        print(f"  {estado}: {qtd} ({(qtd/total)*100:.2f}%)")
+        # Nordeste
+        'AL': 'Nordeste', 'BA': 'Nordeste', 'CE': 'Nordeste', 'MA': 'Nordeste',
+        'PB': 'Nordeste', 'PE': 'Nordeste', 'PI': 'Nordeste',
+        'RN': 'Nordeste', 'SE': 'Nordeste',
+
+        # Centro-Oeste
+        'DF': 'Centro-Oeste', 'GO': 'Centro-Oeste', 'MT': 'Centro-Oeste', 'MS': 'Centro-Oeste',
+
+        # Sudeste
+        'ES': 'Sudeste', 'MG': 'Sudeste', 'RJ': 'Sudeste', 'SP': 'Sudeste',
+
+        # Sul
+        'PR': 'Sul', 'RS': 'Sul', 'SC': 'Sul',
+    }
+
+    estados = [p.endereco.estado for p in pessoas]
+    regioes = [estados_para_regioes.get(estado, 'Desconhecido') for estado in estados]
+    cont_regioes = Counter(regioes)
+
+    print("\n→ Distribuição Geográfica (por região):")
+    for regiao, qtd in cont_regioes.items():
+        print(f"  {regiao}: {qtd} ({(qtd/total)*100:.2f}%)")
 
     # 3. Qualidade dos dados
     cpfs_invalidos = [p for p in pessoas if not validar_cpf(p.cpf)]
